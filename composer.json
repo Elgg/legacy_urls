@@ -1,8 +1,17 @@
 {
-    "name": "elgg/legacy_urls",
-    "type": "elgg-plugin",
-    "require": {
-        "composer/installers": ">=1.0.8"
-    },
-    "license": "GPL-2.0"
+	"name": "elgg/legacy_urls",
+	"description": "Provides support for URLs used in previous versions of Elgg",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin"],
+	"license": "GPL-2.0",
+	"support": {
+		"source": "https://github.com/elgg/legacy_urls",
+		"issues": "https://github.com/elgg/legacy_urls/issues"
+	},
+	"require": {
+		"composer/installers": ">=1.0.8"
+	},
+	"conflict": {
+		"elgg/elgg": "<2.3"
+	}
 }
